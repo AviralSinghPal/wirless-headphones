@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&family=Ubuntu:wght@300&family=Work+Sans:wght@700&display=swap');
+
+
+*{
+    font-family: Poppins;
+}
+
+nav{
+    display: flex;
+    /* border: 2px solid black; */
+    /* width: 90vw; */
+    /* margin-left: 5vw; */
+    /* text-align: center; */
+    color: grey;
+    font-size: 20px;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    /* margin-top: 10px 50px; */
+}
+nav>img{
+    /* border: 2px solid black; */
+    margin-left: 30px;
+}
+.nav-items{
+    display: flex;
+    /* border: 2px solid black; */
+    width: 40vw;
+    justify-content: space-evenly;
+    
+}
+.sub-headline>img{
+    background-color: orangered;
+    border-radius: 20px;
+
+}
+.intro-section{
+    display: flex;
+    /* border: 2px solid black; */
+
+}
+.left-section{
+    position: relative;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.left-section>h3{
+    font-size: 40px;
+    font-weight: 100;
+    color: black;
+}
+.left-section>h1{
+    font-family: Work sans;
+    font-size: 60px;
+    font: bold;
+}
+
+.sub-headline{
+    /* border: 2px solid black; */
+    margin-left: 80px;
+    font-size: 20px;
+}
+
+.text{
+    text-align: left;
+    color: gery;
+}
+button{
+    position: relative;
+    padding: 20px;
+    color: aliceblue;
+    background-color: orangered;
+    border-radius: 30px;
+    border: none;
+    font-size: large;
+}
+
+.discount{
+    position: relative;
+    top: 100px;
+}
+
+.headphones{
+    /* border: 2px solid black; */
+    position: relative;
+    top:-250px;
+}
+.dots{
+    /* border: 2px solid black; */
+    height: 30px;
+    width: 200px;
+    position: relative;
+    left:200px;
+    bottom:250px;
+    display: flex;
+    justify-content:space-between;
+}
+.dot{
+    width: 30px;
+    border: none;;
+    
+}
+.yellow-dot{
+    background-color: yellow;
+    border-radius: 30px;
+}
+.tomato-dot{
+    background-color: tomato;
+    border-radius: 30px;
+}
+.black-dot{
+    background-color: black;
+    border-radius: 30px;
+}
+
+.discount-content{
+    position:relative;
+    z-index: 3;
+    top:225px;
+    color: aliceblue;
+    
+}
+.discount-content>h4{
+    position: relative;
+    font-size: small;
+    top:10px;
+    left: 8px;
+    padding: 0px;
+}
+.discount-content>h1{
+    position: relative;
+    bottom:15px;
+    left: 5px;
+    /* padding: 0px; */
+}
+
+
+.discount{
+    position: relative;
+    z-index: 2;
+    top: 350px;
+    right: 20px;
+    width: 120px;
+}
+.right-section>.action-btn{
+
+    bottom: 225px;
+    left: 225px;
+}
+.active-item{
+    color: #FE5E35;
+    text-decoration: underline ;
+}
