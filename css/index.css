@@ -77,7 +77,8 @@ button{
 }
 
 .discount{
-    position: relative;
+    /* position: sticky; */
+
     top: 100px;
 }
 
@@ -94,7 +95,7 @@ button{
     left:200px;
     bottom:250px;
     display: flex;
-    justify-content:space-between;
+    justify-content:space-evenly;
 }
 .dot{
     width: 30px;
@@ -151,4 +152,78 @@ button{
 .active-item{
     color: #FE5E35;
     text-decoration: underline ;
+}
+
+.burger{
+    display: none;
+}
+@media screen and (max-width:800px){
+    
+    .intro-section{
+        /* display: flex; */
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    
+        img{
+            /* width: 60%; */
+        }
+        nav .nav-items{
+            display: none;;
+        }
+
+        .headphone-div{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .discount-content{
+            top: 010px;
+            /* display: inline; */
+            /* left:30px; */
+            left :0px;
+            background-color: #FE5E35;
+            padding: 20px 10px;
+            border-radius: 30px;
+            /* display: none; */
+        }
+    .dots{
+        /* text-align: center; */
+        /* object-position: center; */
+        left: 0px;
+        /* width: auto; */
+        margin-left: 25%;
+        /* align-items: ; */
+    }
+    .discount{
+        /* position: absolute; */
+        /* top:20px; */
+        /* margin-left: 10%; */
+        display: none;
+    }
+.headphones{
+    width: 50%;
+    margin-top: 300px;
+
+}
+.right-section>.action-btn{
+
+    /* bottom: 0px; */
+    left:0;
+
+    margin-left: 30%;
+
+}
+.actions{
+    display: none;
+
+}
+.burger{
+display: block;
+}
+.burger:hover{
+    cursor: pointer;
+}
 }
