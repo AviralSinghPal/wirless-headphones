@@ -226,4 +226,7 @@ display: block;
 .burger:hover{
     cursor: pointer;
 }
+.search-icon{
+    display: none;
+}
 }
